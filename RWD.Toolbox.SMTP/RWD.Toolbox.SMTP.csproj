@@ -7,8 +7,10 @@
     <PackageIconUrl>http://www.realworlddevelopers.com/graphics/rwdevs-nuget.jpg</PackageIconUrl>
     <PackageLicenseUrl>http://www.realworlddevelopers.com/legal/EULA.html</PackageLicenseUrl>
     <PackageProjectUrl>http://www.realworlddevelopers.com</PackageProjectUrl>
-    <Description>A tool to assist with sending emails via an SMTP server.</Description>
+    <Description>A .NET Core Library to assist with sending emails via an SMTP server.</Description>
     <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/RealWorldDevelopers/RWD.Toolbox.SMTP</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

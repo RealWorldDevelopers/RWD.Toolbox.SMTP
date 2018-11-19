@@ -1,16 +1,21 @@
-[![Real World Developers Logo](images/RWDevs-header.jpg)](http://www.google.com)
+[![Real World Developers Logo](images/RWDevs-header.jpg)](http://www.realworlddevelopers.com)
 
 Documentation for RWD.Toolbox.SMTP
 ==================================
-A tool to assist with sending emails via an SMTP server.
+A .NET Core Library to assist with sending emails via an SMTP server.
 
-[Nuget Package](https://www.nuget.org/packages/RWD.Toolbox.Conversion/)
+[Real World Developers](https://www.realworlddevelopers.com)
+-----------------------
+
+[Nuget Package](https://www.nuget.org/packages/RWD.Toolbox.SMTP/)
 ---------------
 
 [GitHub](https://github.com/RealWorldDevelopers/RWD.Toolbox.SMTP)
 ------------------
 
 ### Quick Start Notes
-1. v1.0.0.0  Intial Release.
+* #### v1.0.0.0  
+	* Intial Release
+
 
 
