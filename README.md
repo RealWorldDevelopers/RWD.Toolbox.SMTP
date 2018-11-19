@@ -1,6 +1,6 @@
 RWD.Toolbox.SMTP
 ================
-A tool to assist with sending emails via an SMTP server.
+A .NET Core Library to assist with sending emails via an SMTP server.
 
 [Nuget Package](https://www.nuget.org/packages/RWD.Toolbox.Conversion/)
 ---------------
