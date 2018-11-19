@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>   
+    <Authors>RealWorldDevelopers</Authors>
+    <Copyright>RealWorldDevelopers 2018</Copyright>
+    <PackageIconUrl>http://www.realworlddevelopers.com/graphics/rwdevs-nuget.jpg</PackageIconUrl>
+    <PackageLicenseUrl>http://www.realworlddevelopers.com/legal/EULA.html</PackageLicenseUrl>
+    <PackageProjectUrl>http://www.realworlddevelopers.com</PackageProjectUrl>
+    <Description>A tool to assist with sending emails via an SMTP server.</Description>
+    <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile></DocumentationFile>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="docs\" />
+  </ItemGroup>
+
+</Project>
