@@ -12,4 +12,5 @@ A .NET Core Library to assist with sending emails via an SMTP server.
 ---------------
 
 ### Quick Start Notes
-1. v1.0.0.0  Intial Release.
+* #### v1.0.0.0  
+	* Intial Release
