@@ -1,12 +1,14 @@
-![Alt text](/images/rwdevs-header.jpg)
+[![Real World Developers Logo](images/RWDevs-header.jpg)](http://www.google.com)
 
 Documentation for RWD.Toolbox.SMTP
 ==================================
 A tool to assist with sending emails via an SMTP server.
 
-Nuget Package here
+[Nuget Package](https://www.nuget.org/packages/RWD.Toolbox.Conversion/)
+---------------
+
+[GitHub](https://github.com/RealWorldDevelopers/RWD.Toolbox.SMTP)
 ------------------
-https://www.nuget.org/packages/RWD.Toolbox.Conversion/
 
 ### Quick Start Notes
 1. v1.0.0.0  Intial Release.

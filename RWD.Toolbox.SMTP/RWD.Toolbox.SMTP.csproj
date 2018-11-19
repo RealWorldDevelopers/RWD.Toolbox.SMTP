@@ -16,8 +16,4 @@
     <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="docs\" />
-  </ItemGroup>
-
 </Project>
