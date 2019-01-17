@@ -4,13 +4,18 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>   
     <Authors>RealWorldDevelopers</Authors>
     <Copyright>RealWorldDevelopers 2018</Copyright>
-    <PackageIconUrl>http://www.realworlddevelopers.com/graphics/rwdevs-nuget.jpg</PackageIconUrl>
-    <PackageLicenseUrl>http://www.realworlddevelopers.com/legal/EULA.html</PackageLicenseUrl>
+    <PackageIconUrl>https://www.realworlddevelopers.com/resources/images/rwdevs-nuget.jpg</PackageIconUrl>
+    <PackageLicenseUrl>https://www.realworlddevelopers.com/legal/eula.html</PackageLicenseUrl>
     <PackageProjectUrl>http://www.realworlddevelopers.com</PackageProjectUrl>
     <Description>A .NET Core Library to assist with sending emails via an SMTP server.</Description>
-    <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+    <PackageReleaseNotes>Update package documentation links.</PackageReleaseNotes>
     <RepositoryUrl>https://github.com/RealWorldDevelopers/RWD.Toolbox.SMTP</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
+    <PackageTags>SMTP Email RealWorldDevelopers .NET Core</PackageTags>
+    <Version>1.0.2</Version>
+    <AssemblyVersion>1.0.2.0</AssemblyVersion>
+    <FileVersion>1.0.2.0</FileVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
