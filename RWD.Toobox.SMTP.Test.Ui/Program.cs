@@ -43,7 +43,7 @@ namespace RWD.Toobox.SMTP.Test.Ui
                     SMTP_Password = userPassword
                 };
 
-                string[] attachments = new string[] { @"C:\Users\ka8kgj\Desktop\freeze.txt" };
+                string[] attachments = new string[] { @"E:\ka8kgj\OneDrive\Desktop\301.PNG" };
                 string fromEmail = "jstevens@realworlddevelopers.com";
                 string fromName = "jstevens";
                 string toEmail = "ka8kgj@outlook.com";

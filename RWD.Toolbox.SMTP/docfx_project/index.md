@@ -1,6 +1,6 @@
 [![Real World Developers Logo](images/RWDevs-header.jpg)](http://www.realworlddevelopers.com)
 
-Documentation for RWD.Toolbox.SMTP
+[Documentation for RWD.Toolbox.SMTP](https://realworlddevelopers.github.io/RWD.Toolbox.SMTP/api/index.html)
 ==================================
 A .NET Core Library to assist with sending emails via an SMTP server.
 
@@ -14,8 +14,6 @@ A .NET Core Library to assist with sending emails via an SMTP server.
 ------------------
 
 ### Quick Start Notes
-* #### v1.0.0.0  
-	* Intial Release
-
-
-
+* #### v2.0.0.0  
+	* Updated to .NET 6
+	* Impliments MailKit and MimeMessage

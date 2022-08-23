@@ -1,11 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2019
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RWD.Toolbox.SMTP", "RWD.Toolbox.SMTP\RWD.Toolbox.SMTP.csproj", "{0D2C1BBF-C1BB-4008-A1A6-A6E37ECCCEF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RWD.Toolbox.SMTP.Test.Ui", "RWD.Toobox.SMTP.Test.Ui\RWD.Toolbox.SMTP.Test.Ui.csproj", "{CF177831-11D1-41BB-9C4E-67268705C877}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RWD.Toolbox.SMTP.Test.Ui", "RWD.Toobox.SMTP.Test.Ui\RWD.Toolbox.SMTP.Test.Ui.csproj", "{CF177831-11D1-41BB-9C4E-67268705C877}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4809FD64-F8E7-4550-B560-CE551F3591CB}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		eula.md = eula.md
+		README.md = README.md
+		RWDevs-NuGet.jpg = RWDevs-NuGet.jpg
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

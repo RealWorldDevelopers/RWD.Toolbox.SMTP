@@ -1,26 +1,77 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netcoreapp2.1</TargetFramework>   
-    <Authors>RealWorldDevelopers</Authors>
-    <Copyright>RealWorldDevelopers 2018</Copyright>
-    <PackageIconUrl>https://www.realworlddevelopers.com/resources/images/rwdevs-nuget.jpg</PackageIconUrl>
-    <PackageLicenseUrl>https://www.realworlddevelopers.com/legal/eula.html</PackageLicenseUrl>
-    <PackageProjectUrl>http://www.realworlddevelopers.com</PackageProjectUrl>
-    <Description>A .NET Core Library to assist with sending emails via an SMTP server.</Description>
-    <PackageReleaseNotes>Update package documentation links.</PackageReleaseNotes>
-    <RepositoryUrl>https://github.com/RealWorldDevelopers/RWD.Toolbox.SMTP</RepositoryUrl>
-    <RepositoryType>GIT</RepositoryType>
-    <PackageTags>SMTP Email RealWorldDevelopers .NET Core</PackageTags>
-    <Version>1.0.2</Version>
-    <AssemblyVersion>1.0.2.0</AssemblyVersion>
-    <FileVersion>1.0.2.0</FileVersion>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Authors>RealWorldDevelopers</Authors>
+		<Copyright>RealWorldDevelopers 2022</Copyright>
+		<PackageIconUrl>https://www.realworlddevelopers.com/resources/images/rwdevs-nuget.jpg</PackageIconUrl>
+		<PackageProjectUrl>http://www.realworlddevelopers.com</PackageProjectUrl>
+		<Description>A .NET 6 Library to assist with sending emails via an SMTP server.</Description>
+		<PackageReleaseNotes>
+			Update package to .NET 6
+			Implimented MailKit and MimeMessage
+		</PackageReleaseNotes>
+		<RepositoryUrl>https://github.com/RealWorldDevelopers/RWD.Toolbox.SMTP</RepositoryUrl>
+		<RepositoryType>GIT</RepositoryType>
+		<PackageTags>SMTP Email RealWorldDevelopers </PackageTags>
+		<AssemblyVersion>2.0.0.0</AssemblyVersion>
+		<FileVersion>2.0.0.0</FileVersion>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageIcon>RWDevs-NuGet.jpg</PackageIcon>
+	</PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile></DocumentationFile>
-    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
-  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<DocumentationFile></DocumentationFile>
+		<GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\eula.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\RWDevs-NuGet.jpg">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Authors>RealWorldDevelopers</Authors>
+		<Copyright>RealWorldDevelopers 2022</Copyright>
+		<PackageIconUrl>https://www.realworlddevelopers.com/resources/images/rwdevs-nuget.jpg</PackageIconUrl>
+		<PackageProjectUrl>http://www.realworlddevelopers.com</PackageProjectUrl>
+		<Description>A .NET 6 Library to assist with sending emails via an SMTP server.</Description>
+		<PackageReleaseNotes>
+			Update package to .NET 6
+			Implimented MailKit and MimeMessage
+		</PackageReleaseNotes>
+		<RepositoryUrl>https://github.com/RealWorldDevelopers/RWD.Toolbox.SMTP</RepositoryUrl>
+		<RepositoryType>GIT</RepositoryType>
+		<PackageTags>SMTP Email RealWorldDevelopers </PackageTags>
+		<Version>2.0.1</Version>
+		<AssemblyVersion>2.0.0.0</AssemblyVersion>
+		<FileVersion>2.0.0.0</FileVersion>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageIcon>RWDevs-NuGet.jpg</PackageIcon>
+		<PackageLicenseFile>eula.md</PackageLicenseFile>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<DocumentationFile></DocumentationFile>
+		<GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+	</PropertyGroup>
+
+
+	<ItemGroup>
+		<PackageReference Include="NETCore.MailKit" Version="2.1.0" />
+	</ItemGroup>
 
 </Project>
