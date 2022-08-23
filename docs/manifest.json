@@ -45,10 +45,10 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "gc6JVDNaUmNlkbns0KEzl+w3MjaO5tl/cRvjJiX7Lu8="
+          "hash": "4ULgvjtc3FffjfpEv5YYPomifknHW2tXi2jwWF/F8PQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -83,7 +83,7 @@
           "hash": "PaF8yS1rk5puxImTJN4OWjtO0Ui9lqQ7lUFApcg8bXA="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
