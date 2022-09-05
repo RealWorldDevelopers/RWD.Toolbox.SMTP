@@ -8,6 +8,9 @@ A .NET Core Library to assist with sending emails via an SMTP server.
 [Documentation](https://realworlddevelopers.github.io/RWD.Toolbox.SMTP/)
 -----------------------
 
+[Nuget Package](https://www.nuget.org/packages/RWD.Toolbox.SMTP/)
+---------------
+
 ### Quick Start Notes
 * #### v2.0.0.0  
 	* Updated to .NET 6
