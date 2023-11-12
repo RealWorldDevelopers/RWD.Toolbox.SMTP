@@ -5,4 +5,4 @@ A library with Helpers to Assist in basic logging task.
 
 
 ### Quick Start Notes
-> [README](https://github.com/RealWorldDevelopers/RWD.Toolbox.Logging) 
+> [README](https://github.com/RealWorldDevelopers/RWD.Toolbox.SMTP) 
